@@ -1,0 +1,18 @@
+/*** Custom CSS styling overriding MaterializeCSS ***/
+
+.gts-nav > nav {
+    background-color: #D52A2A;
+}
+
+nav .brand-logo {
+    color: #F4EEEF;
+}
+
+nav .big-nav {
+    padding-right: 1rem;
+    color: #F4EEEF;
+}
+
+nav .side-nav > li i {
+    color: #F4EEEF;
+}

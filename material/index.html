@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Site</title>
+    <!-- MaterializeCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" media="screen, projection">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- My custom CSS styling sheet -->
+    <link rel="stylesheet" href="css/style.css" media="screen, projection">
+</head>
+
+<body>
+<div class="gts-nav">
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#" class="brand-logo">Goals to Smash</a>
+                <a href="#" class="button-collapse" data-activates="mobile-nav">
+                    <i class="material-icons">menu</i>
+                </a>
+            </div>
+            <div class="big-nav">
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Goals</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Journal</a></li>
+                    <li><a href="#">Affirmations</a></li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+            </div>
+                <ul class="side-nav" id="mobile-nav">
+                    <li><a href="#"><i class="fas fa-tasks"></i></a></li>
+                    <li><a href="#"><i class="fas fa-chart-pie"></i></a></li>
+                    <li><a href="#"><i class="fas fa-pencil-alt"></i></a></li>
+                    <li><a href="#"><i class="fas fa-certificate"></i></a></li>
+                    <li><a href="#"><i class="fas fa-chart-pie"></i></a></li>
+                    <li><a href="#"><i class="fas fa-blog"></i></a></li>
+                    <li><a href="#"><i class="fas fa-user-astronaut"></i></a></li>
+                </ul>
+        </div>
+    </nav>
+</div>
+    <!-- J Query -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- MaterializeCSS Javascript Components -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/29c5affc8d.js" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-button').dropdown({
+                constrainWidth: false,
+                hover: true,
+                belowOrigin: true,
+                alignment: 'left',
+                padding: 1
+            })
+
+            $('.button-collapse').sideNav();
+        });
+
+    </script>
+
+</body>
+</html>
